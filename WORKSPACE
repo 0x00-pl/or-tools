@@ -25,11 +25,11 @@ git_repository(
     remote = "https://github.com/protocolbuffers/protobuf.git",
 )
 
-git_repository(
-    name = "com_google_protobuf_cc",
-    commit = "6d4e7fd",  # release v3.10.0
-    remote = "https://github.com/protocolbuffers/protobuf.git",
-)
+#git_repository(
+#    name = "com_google_protobuf_cc",
+#    commit = "6d4e7fd",  # release v3.10.0
+#    remote = "https://github.com/protocolbuffers/protobuf.git",
+#)
 
 load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
 # Load common dependencies.

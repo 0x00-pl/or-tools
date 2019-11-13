@@ -235,7 +235,7 @@ cc_library(
         #        "//net/proto2/io/public:io",
         #        "//net/proto2/public",
         #        "//net/proto2/util/public:json",
-        "@com_google_protobuf_cc//:protobuf",
+        "@com_google_protobuf//:protobuf",
     ],
 )
 
@@ -252,7 +252,7 @@ cc_library(
         #        "//net/proto2/io/public:io",
         #        "//net/proto2/public",
         #        "//net/proto2/util/public:json",
-        "@com_google_protobuf_cc//:protobuf",
+        "@com_google_protobuf//:protobuf",
     ],
 )
 

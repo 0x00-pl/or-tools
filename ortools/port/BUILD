@@ -42,6 +42,6 @@ cc_library(
     deps = [
         "//ortools/base",
         "@com_google_absl//absl/strings",
-        "@com_google_protobuf_cc//:protobuf",
+        "@com_google_protobuf//:protobuf",
     ],
 )
