@@ -7,14 +7,18 @@ cc_library(
         "commandlineflags.h",
         "integral_types.h",
         "logging.h",
+        "env_time.h",
         "macros.h",
     ],
     srcs = [
         "logging.cc",
+        "env_time.cc",
     ],
     deps = [
         "@com_github_gflags_gflags//:gflags",
-        "@com_github_glog_glog//:glog",
+        "@com_google_absl//absl/base",
+        "@com_google_absl//absl/strings",
+#        "@com_github_glog_glog//:glog",
     ],
 )
 

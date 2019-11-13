@@ -7,11 +7,11 @@ git_repository(
     remote = "https://github.com/gflags/gflags.git",
 )
 
-git_repository(
-    name = "com_github_glog_glog",
-    commit = "96a2f23",  # release v0.4.0
-    remote = "https://github.com/google/glog.git",
-)
+#git_repository(
+#    name = "com_github_glog_glog",
+#    commit = "96a2f23",  # release v0.4.0
+#    remote = "https://github.com/google/glog.git",
+#)
 
 git_repository(
     name = "bazel_skylib",

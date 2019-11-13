@@ -554,7 +554,7 @@ SortedDisjointIntervalList::Iterator SortedDisjointIntervalList::InsertInterval(
   // start > end could mean an empty interval, but we prefer to LOG(DFATAL)
   // anyway. Really, the user should never give us that.
   if (start > end) {
-    LOG(DFATAL) << "Invalid interval: " << ClosedInterval({start, end});
+    LOG(FATAL) << "Invalid interval: " << ClosedInterval({start, end});
     return intervals_.end();
   }
 
